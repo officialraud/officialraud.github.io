@@ -2641,7 +2641,7 @@ footer a:hover {
 	background: -ms-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
 	background: linear-gradient(to right, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
 	background-size: 100% auto;
-	box-shadow: 0px 20px 40px rgba(255, 129, 119, 0.5);
+	box-shadow: 0px 20px 40px rgba(119, 255, 119, 0.5);
 	border-radius: 100px;
 	font-size: 38px;
 }
@@ -2691,8 +2691,8 @@ footer a:hover {
 .rd.big p:before {
 	content: "+";
 	position: relative;
-	text-shadow: 0px 20px 40px rgba(255, 129, 119, 0.5);
-	color: rgb(255, 129, 119);
+	text-shadow: 0px 20px 40px rgba(135, 255, 119, 0.5);
+	color: rgb(119, 255, 149);
 	font-size: 18px;
 	margin-right: 10px;
 	float: left;
@@ -2706,7 +2706,7 @@ footer a:hover {
 	z-index: 10;
 }
 .btn.btn_rond_orange.btn__modal:hover {
-	background: #FF766A;
+	background: #68ff75;
 }
 .layout .mfp-bg.my-mfp-zoom-in.mfp-ready {
 	background: rgb(9, 7, 38);
@@ -2730,7 +2730,7 @@ footer a:hover {
 	content: "";
 	transform: skew(-20deg);
 	border-radius: 4px;
-	background: linear-gradient(79.37deg, #FF6868 -4.19%, #FFB673 103.34%);
+	background: linear-gradient(79.37deg, #68ff75 -4.19%, #73ff9d 103.34%);
 	padding: 0px;
 	position: absolute;
 	width: 100%;
@@ -2825,7 +2825,7 @@ footer a:hover {
 	left: 0;
 	top: 0;
 	width: 100%;
-	background-color: #fd7b52;
+	background-color: #52fd6e;
 }
 /* ///  END DECORATION CSS  ///  */
 
@@ -3182,7 +3182,7 @@ margin: -16px 0 0 -16px;}
     width: 30%;
     height: 1px;
     background: rgba(248,80,50,0);
-    background: -moz-linear-gradient(left, rgba(248,80,50,0) 0%, #808082 100%);
+    background: -moz-linear-gradient(left, rgba(248,80,50,0) 0%, #5d5d5e 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,0)), color-stop(100%, #808082));
     background: -webkit-linear-gradient(left, rgba(248,80,50,0) 0%, #808082 100%);
     background: -o-linear-gradient(left, rgba(248,80,50,0) 0%, #808082 100%);
@@ -3295,7 +3295,7 @@ margin: -16px 0 0 -16px;}
 }
 
 .play__ic::after {
-    box-shadow: -9px 3px 88px 22px #885357;
+    box-shadow: -9px 3px 88px 22px #598853;
     content: "";
     position: absolute;
     width: 25px;
