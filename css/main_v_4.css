@@ -1161,23 +1161,23 @@ body>canvas {
 }
 .btn_rond_orange:hover {
 	background: rgb(105, 255, 130);
-	background: -moz-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(255, 169, 112, 1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(105, 255, 130)), color-stop(100%, rgba(255, 169, 112, 1)));
-	background: -webkit-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(255, 169, 112, 1) 100%);
-	background: -o-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(255, 169, 112, 1) 100%);
-	background: -ms-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(255, 169, 112, 1) 100%);
-	background: linear-gradient(to right, rgba(105, 255, 130) 0%, rgba(255, 169, 112, 1) 100%);
+	background: -moz-linear-gradient(left, rgba(105, 255, 130) 0%, rgb(183, 248, 186) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(105, 255, 130)), color-stop(100%, rgba(183, 248, 186)));
+	background: -webkit-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
+	background: -o-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
+	background: -ms-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
+	background: linear-gradient(to right, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
 	background-size: 100% auto;
 	border: 2px solid transparent;
 }
 .gradient_btn__orange {
 	background: rgba(105, 255, 130);
-	background: -moz-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(255, 169, 112, 1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(105, 255, 130)), color-stop(100%, rgba(255, 169, 112, 1)));
-	background: -webkit-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(255, 169, 112, 1) 100%);
-	background: -o-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(255, 169, 112, 1) 100%);
-	background: -ms-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(255, 169, 112, 1) 100%);
-	background: linear-gradient(to right, rgba(105, 255, 130) 0%, rgba(255, 169, 112, 1) 100%);
+	background: -moz-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(105, 255, 130)), color-stop(100%, rgba(183, 248, 186)));
+	background: -webkit-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
+	background: -o-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
+	background: -ms-linear-gradient(left, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
+	background: linear-gradient(to right, rgba(105, 255, 130) 0%, rgba(183, 248, 186) 100%);
 	-webkit-transition: all .4s ease 0s;
 	-moz-transition: all .4s ease 0s;
 	-o-transition: all .4s ease 0s;
