@@ -1236,7 +1236,7 @@ body>canvas {
 	line-height: 40px;
 }
 .nav__link.nav__link_donate {
-	border: 2px solid #ff766a;
+	border: 2px solid #6bff9c;
 	border-radius: 50px;
 	min-width: 100px;
 	height: 60px;
@@ -1244,10 +1244,10 @@ body>canvas {
 	justify-content: center;
 }
 .nav__link.nav__link_donate.active {
-	background: #ff766a;
+	background: #6bff9c;
 }
 .nav__link.nav__link_donate:hover {
-	background: #ff766a;
+	background: #6bff9c;
 }
 _ .wrapper.slide__home {
 	position: absolute;
@@ -1426,7 +1426,7 @@ _ .wrapper.slide__home {
 }
 .serv__rd__ip {
 	font-size: 18px;
-	color: #FF6868;
+	color: #6bff9c;
 	padding-top: 3px;
 	width: 93%;
 	position: relative;
