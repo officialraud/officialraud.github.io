@@ -1154,7 +1154,7 @@ body>canvas {
 	justify-content: center;
 }
 .btn_rond_orange {
-	border: 2px solid #FF766A;
+	border: 2px solid #4ea56f;
 	border-radius: 100px;
 	font-family: Uni Neue;
 	font-weight: bold;
@@ -1183,7 +1183,7 @@ body>canvas {
 	-o-transition: all .4s ease 0s;
 	transition: all .4s ease 0s;
 	background-size: 100% auto;
-	box-shadow: 0px 5px 35px #885357;
+	box-shadow: 0px 5px 35px #598853;
 	font-family: Uni Neue;
 	font-weight: bold;
 }
@@ -2092,7 +2092,7 @@ _ .wrapper.slide__home {
 	font-style: italic;
 	width: 100%;
 	display: flex;
-	border-left: 3px solid #FF6868;
+	border-left: 3px solid #4ea56f;
 	padding-left: 15px;
 	margin-top: 15px;
 }
