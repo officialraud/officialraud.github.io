@@ -2187,7 +2187,7 @@ _ .wrapper.slide__home {
 	content: "";
 	width: 487px;
 	height: 969px;
-	left: -100px;
+	left: -50px;
 	position: absolute;
 	z-index: 1;
 	bottom: -100px;
