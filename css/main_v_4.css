@@ -1041,6 +1041,16 @@ body>canvas {
 	top: -34px;
 	background: url(../images/free-png.ru-21.png);
 }
+.person__right:before {
+	position: absolute;
+	content: "";
+	width: 560px;
+	height: 1000px;
+	left: 117px;
+	top: -154px;
+	z-index: 1;
+	background: url(../images/free-png.ru-21.png);
+}
 
 .slide-main.right__main {
 	width: 40%;
