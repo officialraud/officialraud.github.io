@@ -2187,10 +2187,10 @@ _ .wrapper.slide__home {
 	content: "";
 	width: 420px;
 	height: 969px;
-	left: 0;
+	left: -20;
 	position: absolute;
 	z-index: 1;
-	bottom: 100px;
+	bottom: 0px;
     display: block;
 	background-size: cover;
 }
