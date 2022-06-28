@@ -1037,7 +1037,7 @@ body>canvas {
 	content: "";
 	width: 560px;
 	height: 1000px;
-	left: 150px;
+	left: 100px;
 	top: -154px;
 	z-index: 1;
 	background: url(../images/person1.png);
