@@ -2013,7 +2013,7 @@ _ .wrapper.slide__home {
 	width: 100%;
 	background-size: cover;
 	min-width: 645px;
-	min-height: 640px;
+	min-height: 960px;
 	z-index: 1;
 }
 .tabs1:after {
