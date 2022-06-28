@@ -2006,7 +2006,7 @@ _ .wrapper.slide__home {
 	height: 100%;
 	position: absolute;
 	margin: auto;
-	left: 250px;
+	left: 0px;
 	right: 0;
 	top: 0;
 	bottom: 0px;
