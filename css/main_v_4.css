@@ -2006,13 +2006,13 @@ _ .wrapper.slide__home {
 	height: 100%;
 	position: absolute;
 	margin: auto;
-	left: -85px;
+	left: -150px;
 	right: 0;
 	top: 0;
 	bottom: 0px;
 	width: 100%;
 	background-size: cover;
-	min-width: 646px;
+	min-width: 589px;
 	min-height: 1080px;
 	z-index: 1;
 }
