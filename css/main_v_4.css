@@ -2009,7 +2009,7 @@ _ .wrapper.slide__home {
 	left: 0px;
 	right: 0;
 	top: 0;
-	bottom: -200px;
+	bottom: 0px;
 	width: 100%;
 	background-size: cover;
 	min-width: 646px;
