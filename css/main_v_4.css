@@ -2003,7 +2003,7 @@ _ .wrapper.slide__home {
 	background-size: auto;
 	content: "";
 	width: 100%;
-	height: 100%;
+
 	position: absolute;
 	margin: auto;
 	left: -150px;
