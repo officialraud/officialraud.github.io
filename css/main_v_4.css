@@ -2185,8 +2185,8 @@ _ .wrapper.slide__home {
 .bg-play:after {
 	background: url('../images/slide/play.png');
 	content: "";
-	width: 487px;
-	height: 600px;
+	width: 1688px;
+	height: 768px;
 	left: -50px;
 	position: absolute;
 	z-index: 1;
