@@ -2006,14 +2006,14 @@ _ .wrapper.slide__home {
 	height: 100%;
 	position: absolute;
 	margin: auto;
-	left: -150px;
+	left: -85px;
 	right: 0;
 	top: 0;
 	bottom: 0px;
 	width: 100%;
 	background-size: cover;
-	min-width: 636px;
-	min-height: 1080px;
+	min-width: 646px;
+	min-height: 967px;
 	z-index: 1;
 }
 .tabs1:after {
