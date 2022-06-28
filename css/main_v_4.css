@@ -1032,15 +1032,7 @@ a {
 body>canvas {
 	opacity: .1;
 }
-.person__left:after {
-	content: "";
-	position: absolute;
-	width: 398px;
-	height: 881px;
-	left: -120px;
-	top: -34px;
-	background: url(../images/free-png.ru-21.png);
-}
+
 .person__right:before {
 	position: absolute;
 	content: "";
