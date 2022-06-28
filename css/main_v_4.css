@@ -1035,9 +1035,9 @@ body>canvas {
 .person__right:before {
 	position: absolute;
 	content: "";
-	width: 560px;
+	width: 666px;
 	height: 1000px;
-	left: -100px;
+	left: -50px;
 	top: -100px;
 	z-index: 1;
 	background: url(../images/person1.png);
