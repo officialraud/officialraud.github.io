@@ -2012,7 +2012,7 @@ _ .wrapper.slide__home {
 	bottom: 0px;
 	width: 100%;
 	background-size: cover;
-	min-width: 350px;
+	min-width: 500px;
 	min-height: 614px;
 	z-index: 1;
 }
