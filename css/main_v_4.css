@@ -2190,7 +2190,7 @@ _ .wrapper.slide__home {
 	left: -50px;
 	position: absolute;
 	z-index: 1;
-	bottom: -100px;
+	bottom: -120px;
     display: block;
 	background-size: cover;
 }
