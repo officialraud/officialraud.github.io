@@ -1,230 +1,100 @@
 <!DOCTYPE html>
-<html class="fp-enabled" lang="ru" style="overflow: hidden; height: 100%;">
-<head>
-	<meta charset="UTF-8">
-	<title>Astralis Role Play | GTA V проект на RAGE MP </title>
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta name="description" content="">
-	<meta name="keywords" content="RP, РП, RolePlay, Рол плей, Role Play, GTA 5, GTA V, ГТА 5, Astralis, Онлайн, Мультиплеер, astralis rp, Голосовой чат, войс чат"> 
-	<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
-	<link href="css/fullpage_v_4.css" rel="stylesheet">
-	<link href="favicon.ico" rel="shortcut icon">
-	<link rel="stylesheet" href="css/libs.min.css">
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icons/favlogo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
-	<link href="css/themes/semantic.rtl.min_v_4.css" rel="stylesheet">
-	<script src="js/jquery-1.11.3.min_v_4.js">
-	</script>
-	<script src="js/fm.revealator.jquery.min_v_4.js">
-	</script>
-	<script src="js/jquery-ui_v_4.js">
-	</script>
-	<meta name="verification" content="112b975da7ed3348325403186301de" />
-<script>
-	   jQuery(function($) {
-	   
-	   var index = 'qpsstats-active-tab';
-	   var dataStore = window.sessionStorage;
-	   var oldIndex = 0;
-	   
-	   var tabs = $('.about_tabs');
-	   var tabs_select = true;
-	   var selector = $(".about_tabs").find(".slide__astralis");
-	   var activeItem = tabs.find('.about_tabs li .ui-state-active');
-	   var activeWidth = activeItem.innerWidth();
-	   
-	   $(".slide__astralis").css({
-	     "left": activeItem.position.left + "px", 
-	     "width": activeWidth + "px"
-	   });
-
-
-
-	       
-	   try {
-	       oldIndex = dataStore.getItem(index);
-	       $('#astralis_slide').addClass('animated fadeInLeft tabs' + oldIndex);
-	       $('#astralis_slide').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-	           $(this).removeClass('animated fadeInLeft');
-	       });
-	   } catch (e) {}
-
-
-	   $("#tabs").tabs({
-	       active: oldIndex,
-	       hide: {
-	           effect: "fade",
-	           duration: 200
-	       },
-	       show: { 
-	           function( event, ui ) {
-
-	           alert('2');
-	           },
-	           effect: "fade",
-	           direction: "right",
-	           duration: 200
-	       }, 
-	       activate: function(event, ui) {
-				   tabs_select = false;
-					
-				   var newIndex = ui.newTab.parent().children().index(ui.newTab);
-				
-				   $('#astralis_slide').removeClass();
-				   $('#astralis_slide').addClass('animated fadeInLeft tabs' + newIndex);
-				   $('#astralis_slide').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-					   $(this).removeClass('animated fadeInLeft');  
-				 });
-					var isn = $('.ui-tabs-active');
-					var activeWidth = isn.innerWidth();
-					var itemPos = isn.position();
-						 $(".slide__astralis").css({
-						   "left":itemPos.left + "px", 
-						   "width": activeWidth + "px"
-					});
-	           
-			   
-	           try {
-	               dataStore.setItem(index, newIndex);
-	           } catch (e) {}
-				tabs_select = true;
-	       }
-	   })
-	   
-	   	   
-/* 	   $(".about_tabs").on("click","li",function(e){
-		if (tabs_select == true) {
-		 e.preventDefault();
-	     var activeWidth = $(this).innerWidth();
-	     var itemPos = $(this).position();
-	     $(".slide__astralis").css({
-	       "left":itemPos.left + "px", 
-	       "width": activeWidth + "px"
-	     });
-			
-		}
-	   });
-	        */
-	   
-	   
-			window.onload = function() {
-			var elm = $(".revealator-slideright");
-			elm.css('transform','translate(0, 0)').css('opacity', '1').css('z-index', '1');
-			};
-				   
-			
-	    	function slider_tabs() {
-	        var elm = $(".ui-state-active");
-	        var activeWidth = elm.innerWidth();
-	        var itemPos = elm.position();
-	        $(".slide__astralis").css({
-			"left":itemPos.left + "px", 
-			"width": activeWidth + "px"
-			});
-			}
-			window.onresize = function(event) {
-			slider_tabs();
-		    };
-			
-			
-			slider_tabs();
-	})
-	</script>
-	<style>
-	   .ajs-message.ajs-default_rd {
-	   background: rgba(166, 166, 166, 0.65);
-	   color: #fff;
-	   border: none;
-	   border-radius: 6px;
-	   }
-
-		.container_item__play:nth-child(3) .btn__play {
-		pointer-events: none;
-		}
-	</style>
-	
-<meta name="yandex-verification" content="fe0edfe396221c45" />
-
+    <title>RAGEMP.PRO</title>
+</head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAGEMP.PRO</title>
 </head>
 <body>
-	<header class="header">
-	<div class="container">
-	  <div class="header__inner">
-		<a class="logo" href="index.html">
-		  <img src="images/logo.png" alt="">
-		</a>
-		<nav class="menu">
-		  <div class="menu__btn">
-			<div class="line-menu half start-top"></div>
-			<div class="line-menu"></div>
-			<div class="line-menu half end"></div>
-		  </div>
-		  <ul class="menu__list">
-			<li class="menu__list-item menu__list-forum">
-			  <a class="menu__list-link" href="#">
-				Форум
-			  </a>
-			</li>
-			<li class="menu__list-item menu__list-donate">
-			  <a class="menu__list-link" href="donate.html">
-				Донат
-			  </a>
-			</li>
-		  </ul>
-		</nav>
-	  </div>
-	</div>
-  </header>
-	<audio id="myaudio" autoplay loop>
-	  <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis"></source>
-	  <source src="audio/music.mp3" type="audio/mpeg"></source>
-	</audio>
-	<main class="donate" style="background-image: url(images/donate-bg.png);">
-	  <div class="container">
-		<div class="donate__inner">
-		  <img data-aos="fade-up" data-aos-delay="300" class="donate__img" src="images/content/characters.png" alt="">
-		  <div data-aos="fade-left" data-aos-delay="500" class="item__box">
-			<div class="donate__form">
-			  <div class="donate__form-title">
-				Введите данные
-			  </div>
-			  <span class="icon__form-menu"></span>
-			  <span class="icon__form-user"></span>
-			  <span class="icon__form-email"></span>
-			  <span class="icon__form-coins"></span>
-			  <form>
-				<select class="filter-style" data-placeholder="Выбирите сервер" required>
-				  <option></option>
-				  <option>Сервер 1</option>
-				  <option>Сервер 2</option>
-				</select>
-				<input class="donate__form-input" type="text" placeholder="Логин" required>
-				<input class="donate__form-input" type="email" placeholder="Почьта" required>
-				<input class="donate__form-input" type="number" min="0" placeholder="Количество" required>
-				<button class="donate-btn" type="submit">Пожертвовать</button>
-			  </form>
-			</div>
-			<div class="item__info">
-			  <div class="item__info-title">Информация
-				<span>По нашему курсу 1HYPE Coin = 50 долларов США [за сервер]</span>
-			  </div>
-			  <div class="item__info-text">
-				<p>
-				  С помощью Hype Coins вы можете покупать желаемые предметы и недвижимость на нашем сервере. Также Hip Coins позволяют покупать уникальные автомобили.
-				</p>
-				<p>
-				  Когда вы покупаете хайп-монеты на сайте, необходимо подключиться к игровому серверу, и вы уже сможете сделать покупку из меню пончиков.
-				</p>
-			  </div>
-			  <div class="item__info-description">
-				В случае возникновения проблем свяжитесь с нами: HELP@HYPERP.GE или отправьте жалобу на форуме.
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </div>
-	</main>
-  
-	<script src="js/libs.min.js"></script>
-  <script src="js/main.min.js"></script>
-  </body>
-  </html>
+  <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a class="logo" href="index.html">
+        <img src="images/logo.png" alt="">
+      </a>
+      <nav class="menu">
+        <div class="menu__btn">
+          <div class="line-menu half start-top"></div>
+          <div class="line-menu"></div>
+          <div class="line-menu half end"></div>
+        </div>
+        <ul class="menu__list">
+          <li class="menu__list-item menu__list-forum">
+            <a class="menu__list-link" href="#">
+              Форум
+            </a>
+          </li>
+          <li class="menu__list-item menu__list-donate">
+            <a class="menu__list-link" href="donate.html">
+              Донат
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+  <audio id="myaudio" autoplay loop>
+    <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis"></source>
+    <source src="audio/music.mp3" type="audio/mpeg"></source>
+  </audio>
+  <main class="donate" style="background-image: url(images/donate-bg.png);">
+    <div class="container">
+      <div class="donate__inner">
+        <img data-aos="fade-up" data-aos-delay="300" class="donate__img" src="images/content/characters.png" alt="">
+        <div data-aos="fade-left" data-aos-delay="500" class="item__box">
+          <div class="donate__form">
+            <div class="donate__form-title">
+              Введите данные
+            </div>
+            <span class="icon__form-menu"></span>
+            <span class="icon__form-user"></span>
+            <span class="icon__form-email"></span>
+            <span class="icon__form-coins"></span>
+            <form>
+              <select class="filter-style" data-placeholder="Выбирите сервер" required>
+                <option></option>
+                <option>Сервер 1</option>
+                <option>Сервер 2</option>
+              </select>
+              <input class="donate__form-input" type="text" placeholder="Логин" required>
+              <input class="donate__form-input" type="email" placeholder="Почьта" required>
+              <input class="donate__form-input" type="number" min="0" placeholder="Количество" required>
+              <button class="donate-btn" type="submit">Пожертвовать</button>
+            </form>
+          </div>
+          <div class="item__info">
+            <div class="item__info-title">Информация
+              <span>По нашему курсу 1HYPE Coin = 50 долларов США [за сервер]</span>
+            </div>
+            <div class="item__info-text">
+              <p>
+                С помощью Hype Coins вы можете покупать желаемые предметы и недвижимость на нашем сервере. Также Hip Coins позволяют покупать уникальные автомобили.
+              </p>
+              <p>
+                Когда вы покупаете хайп-монеты на сайте, необходимо подключиться к игровому серверу, и вы уже сможете сделать покупку из меню пончиков.
+              </p>
+            </div>
+            <div class="item__info-description">
+              В случае возникновения проблем свяжитесь с нами: HELP@HYPERP.GE или отправьте жалобу на форуме.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
